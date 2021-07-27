@@ -1,0 +1,48 @@
+body, .footer {
+	background-color: #000;
+	color: #fff;
+}
+
+.white {
+	color: white;
+}
+
+.logo {
+	height: 5rem;
+}
+
+a:link, a:visited {
+  color: #fff;
+}
+a:hover, a:active {
+  color: #c1c1c1;
+}
+
+.ph-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.ph-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.ph-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.column .card {
+	height: 100%;
+}
