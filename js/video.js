@@ -46,7 +46,6 @@ if (videosEl == null) {
 } else {
   // Vídeos en la pantalla principal
   for (video of videos) {
-    console.log(video)
     const a = document.createElement('a');
     a.href = "video?id="+video.id;
     a.className = 'column is-4';
