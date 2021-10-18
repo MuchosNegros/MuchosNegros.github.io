@@ -3,10 +3,6 @@ html, body, .footer {
 	color: #fff;
 }
 
-.videotitle {
-	padding-top: 2rem;
-}
-
 .white {
 	color: white;
 }
@@ -49,4 +45,8 @@ a:hover, a:active {
 
 .column .card {
 	height: 100%;
+}
+
+:root {
+  --plyr-color-main: #282828;
 }

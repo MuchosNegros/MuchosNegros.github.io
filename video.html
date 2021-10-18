@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 	  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
   </head>
   <body>
     <section class="section">
@@ -15,13 +16,17 @@
         <p class="subtitle white has-text-centered">
           Las mejores fotos y vídeos de negros XXX
         </p>
-        <div class="secton">
-          <h1 id="title" class="title videotitle white has-text-centered"></h1>
+        <div class="section">
+          <h1 id="title" class="title white has-text-centered"></h1>
           <p id="description" class="subtitle white has-text-centered"></p>
-          <video id="intro" playsinline controls>
-            <source src="videos/intro.mp4" type="video/mp4" />
-          </video>
-          <div id="video" class="ph-video-container"></div>
+            <div class="columns is-centered">
+              <div class="column is-half">
+                <video id="intro" playsinline controls>
+                  <source src="videos/intro.mp4" type="video/mp4" />
+                </video>
+                <div id="ph-video" class="ph-video-container"></div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
@@ -32,5 +37,9 @@
       </div>
     </footer>
     <script src="js/video.js" charset="utf-8"></script>
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+    <script>
+      const player = new Plyr('#intro');
+    </script>
   </body>
 </html>
