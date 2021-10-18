@@ -55,6 +55,7 @@ if (videosEl == null) {
     switch (video.service) {
       case 'pornhub':
         intro.style.display = 'none';
+        phVideo.style.display = 'block';
         phVideo.innerHTML = '<iframe src="https://www.pornhub.com/embed/'+video.url+'" autoplay="" scrolling="no" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>'
       case 'xvideos':
         intro.firstElementChild.src = await getVideoURL(video.url);

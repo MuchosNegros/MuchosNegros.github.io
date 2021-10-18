@@ -18,6 +18,10 @@ a:hover, a:active {
   color: #c1c1c1;
 }
 
+#ph-video {
+	display: none;
+}
+
 .ph-video-container {
   position: relative;
   overflow: hidden;
