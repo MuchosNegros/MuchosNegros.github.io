@@ -9,12 +9,12 @@ permalink: /404.html
     <title>muchosnegros.com</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
     <section class="section">
       <div class="container">
-        <a href="/"><center><img class="image logo" src="images/mn.png"></center></a>
+        <a href="/"><center><img class="image logo" src="/images/mn.png"></center></a>
         <p class="subtitle white has-text-centered">
           Las mejores fotos y vídeos de negros XXX
         </p>
@@ -25,7 +25,7 @@ permalink: /404.html
       </div>
     </section>
     <footer class="footer">
-      <a href="/"><center><img class="image" src="images/mn-small.png"></center></a>
+      <a href="/"><center><img class="image" src="/images/mn-small.png"></center></a>
       <div class="content has-text-centered">
         <p><a href="/hazte-actor">Hazte actor</a> | <a href="/sitemap.xml">Sitemap</a> | <a href="/copyright">DMCA</a></p>
       </div>
