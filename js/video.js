@@ -80,6 +80,6 @@ if (videosEl == null) {
 }
 
 async function getVideoURL(streamURL) {
-  const response = await fetch(`https://api.muchosnegros.com/video/${streamURL}`);
+  const response = await fetch(`https://api.muchosnegros.com/xvideos/${streamURL}`);
   return await response.text();
 }
